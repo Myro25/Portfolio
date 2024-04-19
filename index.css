@@ -76,6 +76,19 @@ body {
     overflow-x: hidden;
 }
 
+.header {
+    background-image: url('/images/newhome2.jpeg');
+    /* Chemin vers votre image */
+    background-size: cover;
+    /* Pour couvrir toute la zone du header */
+    background-position: center;
+    /* Pour centrer l'image */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+
+
+
+
 .row {
     max-width: var(--container-max-width);
     margin: 0 auto;
@@ -418,6 +431,7 @@ body:not(.user-is-tabbing) a:focus {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 90%;
 }
 
 .header__text p {
